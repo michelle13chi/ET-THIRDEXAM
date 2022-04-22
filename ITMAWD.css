@@ -1,0 +1,125 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	box-sizing: border-box;
+	
+}
+.navbar{
+	color: white;
+	float: left;
+	font-size: 20px;
+	padding-top:15px ;
+	padding-left: 10px;
+	
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+  background: rgba(0, 0, 0, 0.8);
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  padding: 14px 16px;
+  text-decoration: none;
+  color: white;
+}
+li a:hover:not(.active) {
+  background-color: gray;
+  color: white;
+}
+.active {
+  background-color: sandybrown;
+}
+body {
+	background-image: url('bg.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+.it{
+  text-align: center;
+  margin-top: 20px;
+}
+p{
+	top: 20px;
+  position: relative;
+  text-align: center;
+  color: whitesmoke;
+  font-size: 20px;
+  font-weight: 100px;
+  font-family: 'Century Gothic',sans-serif;
+  margin-left: 100px;
+	margin-right: 100px;
+}
+h3{
+	top: 20px;
+	font-size: 40px;
+	text-align: center;
+	font-family: 'Century Gothic',sans-serif;
+}
+.content{
+  	border-radius: 5px;
+  	width: 1080px;
+  	background: rgba(0, 0, 0, 0.8);
+  	padding: 40px;
+  	text-align: center;
+  	margin: auto;
+  	margin-top: 5%;
+  	margin-bottom: 2%;
+  	color: white;
+  	font-family: 'Century Gothic',sans-serif;
+}
+
+.progress {
+  width: 100%; 
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.skills {
+  text-align: right; 
+  padding-top: 10px;
+  padding-bottom: 10px; 
+  padding-right: 20px;
+  color: white; 
+}
+.web {
+	width: 85%; background-color: darkred;
+} 
+.java {
+	width: 95%; background-color: darkred;
+} 
+.c {
+	width: 80%; background-color: darkred;
+} 
+.android {
+	width: 90%; background-color: darkred;
+} 
+.progressbar p{
+	text-align: left;
+  color: floralwhite;
+  font-weight: bold;
+  padding-top: 20px; 
+  padding-bottom: 20px;
+}
+.myskills{
+	font-size: 40px;
+	text-align: center;
+	font-family: 'Century Gothic',sans-serif;
+	text-transform: uppercase;
+	color: floralwhite;
+	font-style: italic;
+}
+.progressbar{
+	padding-bottom: 50px;
+	padding-left: 100px;
+	padding-right: 100px;
+}
